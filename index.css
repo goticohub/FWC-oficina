@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    line-height: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+     margin-top: 2rem;
+}
+.titulo-principal{
+text-align: center;
+margin: 2rem 0;
+background-color: rgb(43, 39, 34);
+font-family: Roboto;
+}
+
+.titulo-principal .destaque-vermelho {
+    color: red;
+}
+.titulo-principal .destaque-amarelo {
+    color: gold;
+}
+
+a
+{
+    color: white;
+    background-color: rgb(185, 37, 37);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius:1rem;
+    transition: 300ms;
+}
+a:hover{
+    background-color: rgb(117, 6, 6);
+}
+@media(width <40rem  ){
+    html{
+        font-size: 100%;
+        text-align: center;
+    }
+
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+ .servicos {
+      margin-top: 2rem;
+      text-align: left;      
+      
+      }
+      p{
+        text-align-last: left;
+      }
